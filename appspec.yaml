@@ -3,7 +3,7 @@ Resources:
  - TargetService:
      Type: AWS::ECS::Service
      Properties:
-       TaskDefinition: <TASK_DEFINITION>
+       TaskDefinition: project51-bg-deploy-td
        LoadBalancerInfo:
          ContainerName: simple-node-app
          ContainerPort: 80
