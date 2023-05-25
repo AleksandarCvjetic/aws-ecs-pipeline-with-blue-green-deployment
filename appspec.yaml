@@ -6,4 +6,4 @@ Resources:
        TaskDefinition: project51-bg-deploy-td
        LoadBalancerInfo:
          ContainerName: simple-node-app
-         ContainerPort: 80
+         ContainerPort: 8080
